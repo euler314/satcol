@@ -13,5 +13,5 @@ if ./$SOLVER $CNF | grep --quiet "s SATISFIABLE"; then
   echo "1"
 else
   #echo "Is not $1$-colorable"
-  echo "2"
+  echo "0"
 fi
